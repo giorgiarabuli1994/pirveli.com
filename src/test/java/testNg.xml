@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CriticalTests" parallel="tests" thread-count="3">
+    <test name="Registration">
+        <classes>
+            <class name="Registration"></class>
+        </classes>
+    </test>
+
+    <test name="Login">
+        <classes>
+            <class name="Login"></class>
+        </classes>
+    </test>
+
+    <test name="PasswordRecovery">
+        <classes>
+            <class name="PasswordRecovery"></class>
+        </classes>
+    </test>
+
+    <test name="BuyMedicalCard">
+        <classes>
+            <class name="BuyMedicalCard"></class>
+        </classes>
+    </test>
+
+    <test name="BuyVouchersItem">
+        <classes>
+            <class name="BuyVouchersItem"></class>
+        </classes>
+    </test>
+
+    <test name="BuyShopItem">
+        <classes>
+            <class name="BuyShopItem"></class>
+        </classes>
+    </test>
+</suite>
+
+<!--<suite name="CriticalTests" parallel="tests" thread-count="3">-->
+<!--    <test name="Registration">-->
+<!--        <classes>-->
+<!--            <class name="Registration">-->
+<!--                <methods>-->
+<!--                    <include name="RegistraationWithCorrectDat" invocation-numbers="5"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
